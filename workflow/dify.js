@@ -58,16 +58,15 @@ async function run(args) {
 
       messageList.push(content);
     }
-
-    //const message = messageList.join(`\n${"-".repeat(15)}\n`);
-    /**Notify.pushMessage({
-     * title: "Dify工作流定时助手",
-     * content: message,
-     * msgtype: "text"
-   *});
-    **/
+/**
+    const message = messageList.join(`\n${"-".repeat(15)}\n`);
+    Notify.pushMessage({
+      title: "Dify工作流定时助手",
+      content: message,
+      msgtype: "text"
+   });
   }
- /**
+ **/
   run(process.argv.splice(2)).catch(error => {
     Notify.pushMessage({
       title: "",
