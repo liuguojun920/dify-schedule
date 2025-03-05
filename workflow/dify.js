@@ -66,7 +66,7 @@ async function run(args) {
       msgtype: "text"
    });
   }
- 
+ /**
   run(process.argv.splice(2)).catch(error => {
     Notify.pushMessage({
       title: "",
