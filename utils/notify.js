@@ -291,13 +291,13 @@ export class Notify {
       console.log(`Dify工作流定时助手 ${this.newVersion.name} 现在可用`);
     }
 
-    await trycatch("邮件", this.email.bind(this));
-    await trycatch("钉钉", this.dingtalkWebhook.bind(this));
-    await trycatch("微信", this.wecomWebhook.bind(this));
-    await trycatch("微秘书", this.wimishuWebhook.bind(this));
-    await trycatch("PushPlus", this.pushplus.bind(this));
-    await trycatch("Server酱", this.serverPush.bind(this));
-    await trycatch("飞书", this.feishuWebhook.bind(this));
+    //await trycatch("邮件", this.email.bind(this));
+    // await trycatch("钉钉", this.dingtalkWebhook.bind(this));
+    //await trycatch("微信", this.wecomWebhook.bind(this));
+    //await trycatch("微秘书", this.wimishuWebhook.bind(this));
+    // await trycatch("PushPlus", this.pushplus.bind(this));
+    // await trycatch("Server酱", this.serverPush.bind(this));
+    // await trycatch("飞书", this.feishuWebhook.bind(this));
   }
 }
 
